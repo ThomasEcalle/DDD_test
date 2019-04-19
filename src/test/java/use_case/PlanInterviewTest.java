@@ -60,4 +60,28 @@ class PlanInterviewTest {
         final Response<Interview> response = planInterview.planInterview();
         assertNotNull(response.getData());
     }
+
+    @Test
+    void shouldGetError() {
+        final DateTime dateTime = new DateTime()
+                .withDayOfWeek(2)
+                .withYear(2019)
+                .withMonthOfYear(2)
+                .withHourOfDay(10)
+                .withMinuteOfHour(24);
+
+        final int candidateId = 0;
+        final int duration = 2;
+        final Technology technology = Technology.Android;
+
+        final PlanInterview planInterview = new PlanInterview(candidateId,
+                dateTime,
+                duration,
+                technology,
+                candidateReposiory,
+                consultantRecruiterRepository);
+
+        final Response<Interview> response = planInterview.planInterview();
+        assertNotNull(response.getError());
+    }
 }
