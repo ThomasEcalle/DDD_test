@@ -11,13 +11,11 @@ import java.util.Objects;
  * Time: 14:39
  */
 class ConsultantRecruteur {
-    public ConsultantRecruteur(Profile profile, Address address) {
+    ConsultantRecruteur(Profile profile) {
         this.profile = profile;
-        this.address = address;
     }
 
     final Profile profile;
-    final Address address;
 
     public boolean canTest(Candidate candidate, Technology technology) {
         int candidateExperience = 0;
@@ -41,12 +39,11 @@ class ConsultantRecruteur {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         ConsultantRecruteur that = (ConsultantRecruteur) o;
-        return Objects.equals(profile, that.profile) &&
-                Objects.equals(address, that.address);
+        return Objects.equals(profile, that.profile);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(profile, address);
+        return Objects.hash(profile);
     }
 }

@@ -2,7 +2,6 @@ package model.interview;
 
 import common.MasteredTechnology;
 import common.Technology;
-import common.dto.AddressDTO;
 import common.dto.CandidateDTO;
 import common.dto.ConsultantRecruiterDTO;
 import common.dto.ProfileDTO;
@@ -32,7 +31,7 @@ class InterviewTest {
             .withHourOfDay(10)
             .withMinuteOfHour(0);
 
-    final CandidateDTO candidateDTO = new CandidateDTO(new AddressDTO("test", 92300, "Levallois"),
+    final CandidateDTO candidateDTO = new CandidateDTO(
             new ProfileDTO(new ArrayList<MasteredTechnology>() {{
                 add(new MasteredTechnology(Technology.Android, 3));
             }}, new ArrayList<Technology>() {{
@@ -40,7 +39,7 @@ class InterviewTest {
             }}));
 
     final List<ConsultantRecruiterDTO> recruiters = new ArrayList<ConsultantRecruiterDTO>() {{
-        add(new ConsultantRecruiterDTO(new AddressDTO("test", 45300, "Paris"),
+        add(new ConsultantRecruiterDTO(
                 new ProfileDTO(new ArrayList<MasteredTechnology>() {{
                     add(new MasteredTechnology(Technology.Android, 8));
                 }}, new ArrayList<Technology>() {{

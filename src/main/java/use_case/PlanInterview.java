@@ -22,6 +22,7 @@ public class PlanInterview {
     private Technology technology;
     private CandidateReposiory candidateReposiory;
     private ConsultantRecruiterRepository consultantRecruiterRepository;
+    private InterviewRepository interviewRepository;
 
 
     public PlanInterview(int candidateId,
@@ -29,7 +30,8 @@ public class PlanInterview {
                          int duration,
                          Technology technology,
                          CandidateReposiory candidateReposiory,
-                         ConsultantRecruiterRepository consultantRecruiterRepository
+                         ConsultantRecruiterRepository consultantRecruiterRepository,
+                         InterviewRepository interviewRepository
     ) {
         this.candidateId = candidateId;
         this.date = date;
@@ -37,6 +39,7 @@ public class PlanInterview {
         this.technology = technology;
         this.candidateReposiory = candidateReposiory;
         this.consultantRecruiterRepository = consultantRecruiterRepository;
+        this.interviewRepository = interviewRepository;
     }
 
     public Response<Interview> planInterview() {
@@ -46,6 +49,7 @@ public class PlanInterview {
 
         try {
             Interview interview = new Interview(date, duration, technology, candidateDTO, recruiters);
+            interviewRepository.saveInterview(interview);
             response.setData(interview);
         } catch (RuntimeException exception) {
             response.setError(exception);

@@ -13,7 +13,7 @@ import java.util.UUID;
 class InterviewId {
     private final String value;
 
-    public InterviewId(String value) {
+    InterviewId(String value) {
         if (value == null) {
             throw new InterviewIdBadFormatException();
         }

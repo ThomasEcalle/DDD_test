@@ -17,7 +17,7 @@ class Profile {
     final List<MasteredTechnology> specialities;
     final List<Technology> knownTechnologies;
 
-    public Profile(List<MasteredTechnology> specialities, List<Technology> knownTechnologies) {
+    Profile(List<MasteredTechnology> specialities, List<Technology> knownTechnologies) {
         this.specialities = specialities;
         this.knownTechnologies = knownTechnologies;
     }

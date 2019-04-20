@@ -2,7 +2,6 @@ package infrastructure;
 
 import common.MasteredTechnology;
 import common.Technology;
-import common.dto.AddressDTO;
 import common.dto.ConsultantRecruiterDTO;
 import common.dto.ProfileDTO;
 import use_case.ConsultantRecruiterRepository;
@@ -18,13 +17,11 @@ import java.util.List;
 public class ConsultantRecruiterRepsitoryImpl implements ConsultantRecruiterRepository {
 
     private class FakeRecruiterReturnedFromDB {
-        AddressDTO addressDTO;
         ProfileDTO profileDTO;
         String otherDataWeDontWant;
 
 
-        public FakeRecruiterReturnedFromDB(AddressDTO addressDTO, ProfileDTO profileDTO, String otherDataWeDontWant) {
-            this.addressDTO = addressDTO;
+        FakeRecruiterReturnedFromDB(ProfileDTO profileDTO, String otherDataWeDontWant) {
             this.profileDTO = profileDTO;
             this.otherDataWeDontWant = otherDataWeDontWant;
         }
@@ -36,7 +33,6 @@ public class ConsultantRecruiterRepsitoryImpl implements ConsultantRecruiterRepo
     public ConsultantRecruiterRepsitoryImpl() {
         fakeRedcruiters = new ArrayList<>();
         fakeRedcruiters.add(new FakeRecruiterReturnedFromDB(
-                new AddressDTO("74 rue chaptal", 92300, "Levallois"),
                 new ProfileDTO(new ArrayList<MasteredTechnology>() {{
                     add(new MasteredTechnology(Technology.Android, 3));
                 }}, new ArrayList<Technology>() {{
@@ -50,7 +46,7 @@ public class ConsultantRecruiterRepsitoryImpl implements ConsultantRecruiterRepo
         final List<FakeRecruiterReturnedFromDB> recruitersFromDB = fakeRedcruiters;
         final List<ConsultantRecruiterDTO> recruiters = new ArrayList<ConsultantRecruiterDTO>();
         for (FakeRecruiterReturnedFromDB fakeRecruiterReturnedFromDB : recruitersFromDB) {
-            recruiters.add(new ConsultantRecruiterDTO(fakeRecruiterReturnedFromDB.addressDTO, fakeRecruiterReturnedFromDB.profileDTO));
+            recruiters.add(new ConsultantRecruiterDTO(fakeRecruiterReturnedFromDB.profileDTO));
         }
 
         return recruiters;

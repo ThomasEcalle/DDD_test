@@ -27,21 +27,15 @@ public class Interview {
 
         final Profile profile = new Profile(candidateDTO.getProfileDTO().getSpecialities(),
                 candidateDTO.getProfileDTO().getKnownTechnologies());
-        final Address address = new Address(candidateDTO.getAddressDTO().getRue(),
-                candidateDTO.getAddressDTO().getCodePostal(),
-                candidateDTO.getAddressDTO().getVille());
 
-        this.candidate = new Candidate(profile, address);
+        this.candidate = new Candidate(profile);
         this.interviewId = InterviewId.generateInterviewId();
 
         for (ConsultantRecruiterDTO consultantRecruiterDTO : recruiters) {
 
             final Profile recruiterProfile = new Profile(consultantRecruiterDTO.getProfileDTO().getSpecialities(),
                     consultantRecruiterDTO.getProfileDTO().getKnownTechnologies());
-            final Address recruiterAddress = new Address(consultantRecruiterDTO.getAddressDTO().getRue(),
-                    consultantRecruiterDTO.getAddressDTO().getCodePostal(),
-                    consultantRecruiterDTO.getAddressDTO().getVille());
-            final ConsultantRecruteur consultantRecruteur = new ConsultantRecruteur(recruiterProfile, recruiterAddress);
+            final ConsultantRecruteur consultantRecruteur = new ConsultantRecruteur(recruiterProfile);
 
             if (consultantRecruteur.canTest(candidate, technology)) {
                 this.consultantRecruteur = consultantRecruteur;
@@ -54,39 +48,15 @@ public class Interview {
         }
     }
 
-    public final InterviewId interviewId;
+    private final InterviewId interviewId;
 
     public InterviewStatus status;
 
-    public Creneau creneau;
+    private Creneau creneau;
 
-    public final Candidate candidate;
+    private final Candidate candidate;
 
-    public ConsultantRecruteur getConsultantRecruteur() {
-        return consultantRecruteur;
-    }
-
-    public void setConsultantRecruteur(ConsultantRecruteur consultantRecruteur) {
-        this.consultantRecruteur = consultantRecruteur;
-    }
-
-    public ConsultantRecruteur consultantRecruteur;
-
-    public InterviewStatus getStatus() {
-        return status;
-    }
-
-    public void setStatus(InterviewStatus status) {
-        this.status = status;
-    }
-
-    public Creneau getCreneau() {
-        return creneau;
-    }
-
-    public void setCreneau(Creneau creneau) {
-        this.creneau = creneau;
-    }
+    private ConsultantRecruteur consultantRecruteur;
 
     @Override
     public boolean equals(Object o) {

@@ -8,25 +8,23 @@ import java.util.Objects;
  * Time: 14:42
  */
 class Candidate {
-    public Candidate(Profile profile, Address address) {
+    Candidate(Profile profile) {
         this.profile = profile;
-        this.address = address;
     }
 
     final Profile profile;
-    final Address address;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Candidate candidate = (Candidate) o;
-        return Objects.equals(profile, candidate.profile) &&
-                Objects.equals(address, candidate.address);
+        return Objects.equals(profile, candidate.profile);
+
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(profile, address);
+        return Objects.hash(profile);
     }
 }

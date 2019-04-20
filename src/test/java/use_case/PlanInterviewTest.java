@@ -2,7 +2,6 @@ package use_case;
 
 import common.MasteredTechnology;
 import common.Technology;
-import common.dto.AddressDTO;
 import common.dto.CandidateDTO;
 import common.dto.ConsultantRecruiterDTO;
 import common.dto.ProfileDTO;
@@ -21,21 +20,25 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
  * Time: 16:31
  */
 class PlanInterviewTest {
-    final CandidateReposiory candidateReposiory = id -> new CandidateDTO(new AddressDTO("test", 92300, "Levallois"),
+    final CandidateReposiory candidateReposiory = id -> new CandidateDTO(
             new ProfileDTO(new ArrayList<MasteredTechnology>() {{
                 add(new MasteredTechnology(Technology.Android, 3));
             }}, new ArrayList<Technology>() {{
                 add(Technology.Javascript);
             }}));
-    ;
+
     final ConsultantRecruiterRepository consultantRecruiterRepository = (ConsultantRecruiterRepository) () -> new ArrayList<ConsultantRecruiterDTO>() {{
-        add(new ConsultantRecruiterDTO(new AddressDTO("test", 45300, "Paris"),
+        add(new ConsultantRecruiterDTO(
                 new ProfileDTO(new ArrayList<MasteredTechnology>() {{
                     add(new MasteredTechnology(Technology.Android, 8));
                 }}, new ArrayList<Technology>() {{
                     add(Technology.Dotnet);
                 }})));
     }};
+
+    final InterviewRepository interviewRepository = interview -> {
+
+    };
 
     @Test
     void shouldCreateInterview() {
@@ -44,7 +47,7 @@ class PlanInterviewTest {
                 .withYear(2019)
                 .withMonthOfYear(2)
                 .withHourOfDay(10)
-                .withMinuteOfHour(30);
+                .withMinuteOfHour(0);
 
         final int candidateId = 0;
         final int duration = 2;
@@ -55,7 +58,8 @@ class PlanInterviewTest {
                 duration,
                 technology,
                 candidateReposiory,
-                consultantRecruiterRepository);
+                consultantRecruiterRepository,
+                interviewRepository);
 
         final Response<Interview> response = planInterview.planInterview();
         assertNotNull(response.getData());
@@ -79,7 +83,8 @@ class PlanInterviewTest {
                 duration,
                 technology,
                 candidateReposiory,
-                consultantRecruiterRepository);
+                consultantRecruiterRepository,
+                interviewRepository);
 
         final Response<Interview> response = planInterview.planInterview();
         assertNotNull(response.getError());

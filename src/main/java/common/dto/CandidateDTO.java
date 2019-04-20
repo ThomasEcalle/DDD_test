@@ -7,12 +7,10 @@ package common.dto;
  */
 public class CandidateDTO {
 
-    public CandidateDTO(AddressDTO addressDTO, ProfileDTO profileDTO) {
-        this.addressDTO = addressDTO;
+    public CandidateDTO(ProfileDTO profileDTO) {
         this.profileDTO = profileDTO;
     }
 
-    private AddressDTO addressDTO;
     private ProfileDTO profileDTO;
 
     public ProfileDTO getProfileDTO() {
@@ -21,13 +19,5 @@ public class CandidateDTO {
 
     public void setProfileDTO(ProfileDTO profileDTO) {
         this.profileDTO = profileDTO;
-    }
-
-    public AddressDTO getAddressDTO() {
-        return addressDTO;
-    }
-
-    public void setAddressDTO(AddressDTO addressDTO) {
-        this.addressDTO = addressDTO;
     }
 }
