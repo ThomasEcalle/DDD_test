@@ -2,23 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24f78afd-6ff1-426d-a5b1-f6faaa61ded3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/infrastructure/InterviewRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/dto/AddressDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/dto/CandidateDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/dto/CandidateDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/dto/ConsultantRecruiterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/dto/ConsultantRecruiterDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/exposition/InterviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exposition/InterviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/infrastructure/CandidateRepositoryDefaultImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/infrastructure/CandidateRepositoryDefaultImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/infrastructure/ConsultantRecruiterRepsitoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/infrastructure/ConsultantRecruiterRepsitoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/interview/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/interview/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/interview/Candidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/interview/ConsultantRecruteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/interview/ConsultantRecruteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/interview/Interview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/interview/Interview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/interview/InterviewId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/interview/InterviewId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/interview/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/interview/Profile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/use_case/PlanInterview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/use_case/PlanInterview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/interview/InterviewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/interview/InterviewTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/use_case/PlanInterviewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/use_case/PlanInterviewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/dto/AddressDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/dto/CandidateDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/dto/CandidateDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/dto/ConsultantRecruiterDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/dto/ConsultantRecruiterDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exposition/InterviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exposition/InterviewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/infrastructure/CandidateRepositoryDefaultImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/infrastructure/CandidateRepositoryDefaultImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/infrastructure/CandidateRepositoryDefaultImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/infrastructure/CandidateRepositoryDefaultImpl$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/infrastructure/CandidateRepositoryDefaultImpl$FakeCandidateReturnedFromDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/infrastructure/CandidateRepositoryDefaultImpl$FakeCandidateReturnedFromDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/infrastructure/CandidateRepositoryDefaultImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/infrastructure/CandidateRepositoryDefaultImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/infrastructure/ConsultantRecruiterRepsitoryImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/infrastructure/ConsultantRecruiterRepsitoryImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/infrastructure/ConsultantRecruiterRepsitoryImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/infrastructure/ConsultantRecruiterRepsitoryImpl$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/infrastructure/ConsultantRecruiterRepsitoryImpl$FakeRecruiterReturnedFromDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/infrastructure/ConsultantRecruiterRepsitoryImpl$FakeRecruiterReturnedFromDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/infrastructure/ConsultantRecruiterRepsitoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/infrastructure/ConsultantRecruiterRepsitoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/interview/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/interview/Candidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/interview/Candidate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/interview/ConsultantRecruteur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/interview/ConsultantRecruteur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/interview/Interview.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/interview/Interview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/interview/InterviewId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/interview/InterviewId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/interview/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/interview/Profile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/use_case/PlanInterview.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/use_case/PlanInterview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/use_case/PlanInterviewTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/use_case/PlanInterviewTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/use_case/PlanInterviewTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/use_case/PlanInterviewTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/use_case/PlanInterviewTest$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/use_case/PlanInterviewTest$3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/use_case/PlanInterviewTest$3$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/use_case/PlanInterviewTest$3$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/use_case/PlanInterviewTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/use_case/PlanInterviewTest$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/use_case/PlanInterviewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/use_case/PlanInterviewTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,14 +53,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="144" />
+          <entry key="JAVA" value="150" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7549" />
-          <entry key="PLAIN_TEXT" value="114" />
+          <entry key="JAVA" value="7601" />
+          <entry key="PLAIN_TEXT" value="223" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -56,11 +68,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/use_case/PlanInterviewTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/model/interview/InterviewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+            <state relative-caret-position="120">
+              <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="111" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exposition/InterviewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="33" column="71" lean-forward="true" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/use_case/PlanInterview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="144">
+              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,10 +105,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/interview/Creneau.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/response/Response.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="273">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding>
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/use_case/PlanInterviewTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="91" column="68" selection-start-line="91" selection-start-column="68" selection-end-line="91" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/main/java/use_case/PlannifierEntretien.java" />
         <option value="$PROJECT_DIR$/src/main/java/use_case/CandidatRecruiterRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/use_case/ConsultantRecruiterRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/response/Response.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/interview/exception/InterviewIdBadFormatException.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreneauTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/exposition/InterviewControllerTest.java" />
@@ -163,7 +199,6 @@
         <option value="$PROJECT_DIR$/src/main/java/model/interview/Creneau.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/infrastructure/InterviewRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/use_case/PlanInterview.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/dto/CandidateDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/interview/Candidate.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/interview/Profile.java" />
@@ -174,6 +209,8 @@
         <option value="$PROJECT_DIR$/src/main/java/model/interview/Interview.java" />
         <option value="$PROJECT_DIR$/src/main/java/infrastructure/ConsultantRecruiterRepsitoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/infrastructure/CandidateRepositoryDefaultImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/use_case/PlanInterview.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/response/Response.java" />
         <option value="$PROJECT_DIR$/src/main/java/exposition/InterviewController.java" />
         <option value="$PROJECT_DIR$/src/test/java/use_case/PlanInterviewTest.java" />
       </list>
@@ -215,6 +252,38 @@
               <item name="projectddd" type="b2602c69:ProjectViewProjectNode" />
               <item name="projectddd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectddd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectddd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectddd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectddd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectddd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectddd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exposition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectddd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectddd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -248,7 +317,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Interview&#9;FILE&#9;file:///Users/thomasecalle/Development/ktor/projectddd/src/main/java/model/interview/Interview.java&#10;Inte&#9;FILE&#9;file:///Users/thomasecalle/Development/ktor/projectddd/src/main/java/model/interview/InterviewId.java&#10;Consul&#9;FILE&#9;file:///Users/thomasecalle/Development/ktor/projectddd/src/main/java/model/interview/ConsultantRecruteur.java&#10;InterviewI&#9;FILE&#9;file:///Users/thomasecalle/Development/ktor/projectddd/src/main/java/model/interview/InterviewId.java&#10;Profi&#9;FILE&#9;file:///Users/thomasecalle/Development/ktor/projectddd/src/main/java/model/interview/Profile.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555799651848" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555800021660" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -422,31 +491,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555705277152</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Remove dead code, refactor constructors visibility and add saving interview repository method">
+      <created>1555799709996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555799709996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InterviewTest_shouldTwoInterviewsNotBeEquals - 2019.04.19 at 21h 25m 33s.xml">
-      <configuration name="InterviewTest.shouldTwoInterviewsNotBeEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InterviewTest_shouldThrowExceptionWhenNotGoodStartingHour - 2019.04.19 at 21h 28m 08s.xml">
-      <configuration name="InterviewTest.shouldThrowExceptionWhenNotGoodStartingHour" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_projectddd - 2019.04.19 at 21h 28m 50s.xml">
-      <configuration name="All in projectddd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_projectddd - 2019.04.19 at 21h 30m 02s.xml">
-      <configuration name="All in projectddd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InterviewTest - 2019.04.21 at 00h 27m 11s.xml">
-      <configuration name="InterviewTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_projectddd - 2019.04.21 at 00h 27m 26s.xml">
-      <configuration name="All in projectddd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_projectddd - 2019.04.21 at 00h 28m 38s.xml">
-      <configuration name="All in projectddd" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_projectddd - 2019.04.21 at 00h 28m 58s.xml">
       <configuration name="All in projectddd" configurationId="JUnit" />
     </history-entry>
@@ -454,6 +509,27 @@
       <configuration name="All in projectddd" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_projectddd - 2019.04.21 at 00h 31m 06s.xml">
+      <configuration name="All in projectddd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_projectddd - 2019.04.21 at 00h 32m 39s.xml">
+      <configuration name="All in projectddd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlanInterviewTest_shouldCreateInterview - 2019.04.21 at 00h 32m 59s.xml">
+      <configuration name="PlanInterviewTest.shouldCreateInterview" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlanInterviewTest_shouldCreateInterview - 2019.04.21 at 00h 33m 38s.xml">
+      <configuration name="PlanInterviewTest.shouldCreateInterview" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlanInterviewTest_shouldCreateInterview - 2019.04.21 at 00h 33m 57s.xml">
+      <configuration name="PlanInterviewTest.shouldCreateInterview" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_projectddd - 2019.04.21 at 00h 34m 05s.xml">
+      <configuration name="All in projectddd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_projectddd - 2019.04.21 at 00h 38m 07s.xml">
+      <configuration name="All in projectddd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_projectddd - 2019.04.21 at 00h 40m 04s.xml">
       <configuration name="All in projectddd" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -498,7 +574,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add tests on Interview" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tests on Interview" />
+    <MESSAGE value="Remove dead code, refactor constructors visibility and add saving interview repository method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove dead code, refactor constructors visibility and add saving interview repository method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,28 +587,40 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/use_case/PlanInterview.java</url>
-          <line>49</line>
+          <url>file://$PROJECT_DIR$/src/test/java/use_case/PlanInterviewTest.java</url>
+          <line>47</line>
           <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/use_case/PlanInterview.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/use_case/PlanInterview.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/use_case/PlanInterviewTest.java</url>
-          <line>44</line>
+          <line>58</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/use_case/PlanInterviewTest.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/interview/Interview.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/interview/Creneau.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/interview/Creneau.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -657,23 +746,6 @@
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/response/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -809,16 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/interview/Interview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="40" column="62" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/dto/ConsultantRecruiterDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -830,30 +892,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exposition/InterviewController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/interview/Interview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="31" column="177" selection-start-line="31" selection-start-column="177" selection-end-line="31" selection-end-column="177" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/model/interview/InterviewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1843">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/PlanInterview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="139">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -862,8 +904,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/interview/Creneau.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="221">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/response/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exposition/InterviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="33" column="71" lean-forward="true" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/use_case/PlanInterview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/interview/InterviewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="111" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -872,8 +955,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/use_case/PlanInterviewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        <state relative-caret-position="181">
+          <caret line="91" column="68" selection-start-line="91" selection-start-column="68" selection-end-line="91" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

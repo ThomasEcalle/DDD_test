@@ -7,7 +7,10 @@ import common.dto.ConsultantRecruiterDTO;
 import common.dto.ProfileDTO;
 import common.response.Response;
 import model.interview.Interview;
+import model.interview.exception.NeitherHalfOrPlainHourStartException;
+import model.interview.exception.NotInWorkingHoursException;
 import org.joda.time.DateTime;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -86,7 +89,6 @@ class PlanInterviewTest {
                 consultantRecruiterRepository,
                 interviewRepository);
 
-        final Response<Interview> response = planInterview.planInterview();
-        assertNotNull(response.getError());
+        Assertions.assertThrows(NeitherHalfOrPlainHourStartException.class, planInterview::planInterview);
     }
 }

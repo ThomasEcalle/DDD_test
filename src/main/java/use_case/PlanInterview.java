@@ -47,13 +47,9 @@ public class PlanInterview {
         final List<ConsultantRecruiterDTO> recruiters = consultantRecruiterRepository.getAllConsultantsRecruiter();
         final Response<Interview> response = new Response<>();
 
-        try {
-            Interview interview = new Interview(date, duration, technology, candidateDTO, recruiters);
-            interviewRepository.saveInterview(interview);
-            response.setData(interview);
-        } catch (RuntimeException exception) {
-            response.setError(exception);
-        }
+        Interview interview = new Interview(date, duration, technology, candidateDTO, recruiters);
+        interviewRepository.saveInterview(interview);
+        response.setData(interview);
 
         return response;
     }

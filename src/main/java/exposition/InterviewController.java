@@ -30,12 +30,11 @@ public class InterviewController {
 
     public void planInterview(int idCandidate, DateTime dateTime, int duration, Technology technology) {
         final PlanInterview planInterview = new PlanInterview(idCandidate, dateTime, duration, technology, candidateReposiory, consultantRecruiterRepository, interviewRepository);
-        final Response<Interview> response = planInterview.planInterview();
-
-        if (response.getError() != null) {
-            // Show Error in IHM
-        } else {
+        try {
+            final Response<Interview> response = planInterview.planInterview();
             // Show response.data in IHM
+        } catch (Exception exception) {
+            // Show Error in IHM
         }
     }
 }
